@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Todo Task</h1>
+        <form id="new_task_form">
+            <input type="text"  id="new_task_input" placeholder="What do you have planned?">
+            <input type="submit" value="Add Task" id="new_task_submit">
+        </form>
+    </header>
+
+    <main>
+        <section class="task_list">
+            <div class="label">
+                <h2>Tasks</h2>
+                <button class="deleteAll">Delete All</button>
+            </div>
+            <div id="tasks">
+                <!-- <div class="task">
+                    <div class="content">
+                        <input type="text" readonly value="Task One" class="text">
+                    </div>
+                    <div class="actions">
+                        <button class="edit">Edit</button>
+                        <button class="delete">Delete</button>
+                    </div>
+                </div> -->
+            </div>
+
+        </section>
+    </main>
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
